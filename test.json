@@ -40,7 +40,7 @@
       "gameVersions": ["1.21.x", "1.20.x"],
       "tags": ["dragons", "pets", "adventure"],
       "cover": { "seed": 11, "palette": ["#FF6B6B", "#6A1B2B", "#FFC9C9"], "imageUrl": null },
-      "file": { "url": "https://cdn.example.com/dragon-riders-2.3.1.mcaddon", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "file": { "url": "https://github.com/Raxman1/TestA/raw/refs/heads/main/Adventures%20Structures.mcaddon", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
       "description": {
         "en": "Tame dragons, build nests and fly over your world. Six dragon species with unique abilities, saddles, new armor and a story quest in a sky fortress.",
         "ru": "Приручайте драконов, стройте гнёзда и летайте над своим миром. Шесть видов драконов со своими способностями, сёдла, новая броня и сюжетный квест в небесной крепости.",
