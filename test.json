@@ -1,0 +1,338 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-09-30T12:00:00Z",
+
+  "categories": [
+    {
+      "id": "addons", "icon": "extension", "color": "#34E59B", "extension": ".mcaddon",
+      "title": { "en": "Add-ons", "ru": "Аддоны", "es": "Add-ons", "pt": "Add-ons", "de": "Add-ons" }
+    },
+    {
+      "id": "maps", "icon": "map", "color": "#5CC8FF", "extension": ".mcworld",
+      "title": { "en": "Maps", "ru": "Карты", "es": "Mapas", "pt": "Mapas", "de": "Karten" }
+    },
+    {
+      "id": "textures", "icon": "texture", "color": "#B98CFF", "extension": ".mcpack",
+      "title": { "en": "Textures", "ru": "Текстуры", "es": "Texturas", "pt": "Texturas", "de": "Texturen" }
+    },
+    {
+      "id": "shaders", "icon": "shader", "color": "#FFA64D", "extension": ".mcpack",
+      "title": { "en": "Shaders", "ru": "Шейдеры", "es": "Shaders", "pt": "Shaders", "de": "Shader" }
+    },
+    {
+      "id": "skins", "icon": "skin", "color": "#FF7AA8", "extension": ".mcpack",
+      "title": { "en": "Skins", "ru": "Скины", "es": "Skins", "pt": "Skins", "de": "Skins" }
+    },
+    {
+      "id": "structures", "icon": "structure", "color": "#A5E05B", "extension": ".mcstructure",
+      "title": { "en": "Structures", "ru": "Постройки", "es": "Estructuras", "pt": "Estruturas", "de": "Bauwerke" }
+    }
+  ],
+
+  "mods": [
+    {
+      "id": "dragon-riders",
+      "title": "Dragon Riders",
+      "author": "PixelForge", "verified": true,
+      "category": "addons",
+      "version": "2.3.1", "sizeMb": 48.2, "downloads": 1240000, "updated": "2026-09-28",
+      "featured": true, "isNew": false, "style": "banner",
+      "gameVersions": ["1.21.x", "1.20.x"],
+      "tags": ["dragons", "pets", "adventure"],
+      "cover": { "seed": 11, "palette": ["#FF6B6B", "#6A1B2B", "#FFC9C9"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/dragon-riders-2.3.1.mcaddon", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "Tame dragons, build nests and fly over your world. Six dragon species with unique abilities, saddles, new armor and a story quest in a sky fortress.",
+        "ru": "Приручайте драконов, стройте гнёзда и летайте над своим миром. Шесть видов драконов со своими способностями, сёдла, новая броня и сюжетный квест в небесной крепости.",
+        "es": "Doma dragones, construye nidos y vuela sobre tu mundo. Seis especies con habilidades únicas, sillas, armadura nueva y una misión en una fortaleza celestial.",
+        "pt": "Domine dragões, construa ninhos e voe sobre o seu mundo. Seis espécies com habilidades únicas, selas, armaduras novas e uma missão em uma fortaleza no céu.",
+        "de": "Zähme Drachen, baue Nester und fliege über deine Welt. Sechs Drachenarten mit einzigartigen Fähigkeiten, Sättel, neue Rüstungen und eine Story-Quest in einer Himmelsfestung."
+      },
+      "changelog": {
+        "en": "New Ice Dragon. Fixed flight recoil and improved stability on low-end devices.",
+        "ru": "Новый Ледяной дракон. Исправлена отдача в полёте, улучшена стабильность на слабых устройствах.",
+        "es": "Nuevo dragón de hielo. Corregido el retroceso en vuelo y mejorada la estabilidad en dispositivos modestos.",
+        "pt": "Novo Dragão de Gelo. Corrigido o recuo no voo e melhorada a estabilidade em aparelhos mais simples.",
+        "de": "Neuer Eisdrache. Rückstoß im Flug behoben, Stabilität auf schwachen Geräten verbessert."
+      }
+    },
+    {
+      "id": "skyblock-islands",
+      "title": "Skyblock Islands",
+      "author": "CloudBuilders", "verified": true,
+      "category": "maps",
+      "version": "1.8.0", "sizeMb": 12.6, "downloads": 3120000, "updated": "2026-09-23",
+      "featured": true, "isNew": false, "style": "compact",
+      "gameVersions": ["1.21.x", "1.20.x", "1.19.x"],
+      "tags": ["survival", "islands"],
+      "cover": { "seed": 23, "palette": ["#5CC8FF", "#17507A", "#C8EEFF"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/skyblock-islands-1.8.0.mcworld", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "Classic survival on a floating island. Expand your territory, unlock new islands and complete quest chains.",
+        "ru": "Классическое выживание на парящем острове. Расширяйте территорию, открывайте новые острова и выполняйте цепочки заданий.",
+        "es": "Supervivencia clásica en una isla flotante. Amplía tu territorio, desbloquea nuevas islas y completa cadenas de misiones.",
+        "pt": "Sobrevivência clássica em uma ilha flutuante. Expanda seu território, desbloqueie novas ilhas e complete cadeias de missões.",
+        "de": "Klassisches Überleben auf einer schwebenden Insel. Erweitere dein Gebiet, schalte neue Inseln frei und erfülle Questreihen."
+      },
+      "changelog": {
+        "en": "Added a desert island and 12 new quests.",
+        "ru": "Добавлен остров-пустыня и 12 новых заданий.",
+        "es": "Añadida una isla desierto y 12 misiones nuevas.",
+        "pt": "Adicionada uma ilha do deserto e 12 novas missões.",
+        "de": "Wüsteninsel und 12 neue Quests hinzugefügt."
+      }
+    },
+    {
+      "id": "aurora-shader",
+      "title": "Aurora Shader",
+      "author": "LumaLab", "verified": true,
+      "category": "shaders",
+      "version": "3.0.0", "sizeMb": 6.4, "downloads": 870000, "updated": "2026-09-29",
+      "featured": true, "isNew": true, "style": "compact",
+      "gameVersions": ["1.21.x"],
+      "tags": ["light", "graphics"],
+      "cover": { "seed": 37, "palette": ["#B98CFF", "#3B2A7A", "#E6D6FF"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/aurora-shader-3.0.0.mcpack", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "Soft lighting, northern lights and lively water. Tuned for mid-range phones — a steady 60 FPS.",
+        "ru": "Мягкое освещение, северное сияние и живая вода. Оптимизирован для телефонов среднего уровня — стабильные 60 FPS.",
+        "es": "Iluminación suave, auroras boreales y agua con vida. Optimizado para móviles de gama media: 60 FPS estables.",
+        "pt": "Iluminação suave, aurora boreal e água realista. Otimizado para celulares intermediários: 60 FPS estáveis.",
+        "de": "Weiches Licht, Polarlichter und lebendiges Wasser. Für Mittelklasse-Handys optimiert – stabile 60 FPS."
+      },
+      "changelog": {
+        "en": "Completely rewritten lighting pipeline.",
+        "ru": "Полностью переписан конвейер освещения.",
+        "es": "Canal de iluminación completamente reescrito.",
+        "pt": "Pipeline de iluminação totalmente reescrito.",
+        "de": "Beleuchtungs-Pipeline komplett neu geschrieben."
+      }
+    },
+    {
+      "id": "medieval-kingdom",
+      "title": "Medieval Kingdom",
+      "author": "StoneCraft Studio", "verified": true,
+      "category": "maps",
+      "version": "1.2.4", "sizeMb": 86.0, "downloads": 640000, "updated": "2026-09-27",
+      "featured": false, "isNew": false, "style": "compact",
+      "gameVersions": ["1.21.x", "1.20.x"],
+      "tags": ["city", "castle"],
+      "cover": { "seed": 41, "palette": ["#FFB347", "#7A3E12", "#FFE2A8"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/medieval-kingdom-1.2.4.mcworld", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "A huge medieval city with a castle, market and dungeons. Over 200 interiors and hidden secrets.",
+        "ru": "Огромный средневековый город с замком, рынком и подземельями. Более 200 интерьеров и скрытые секреты.",
+        "es": "Una enorme ciudad medieval con castillo, mercado y mazmorras. Más de 200 interiores y secretos ocultos.",
+        "pt": "Uma enorme cidade medieval com castelo, mercado e masmorras. Mais de 200 interiores e segredos escondidos.",
+        "de": "Eine riesige mittelalterliche Stadt mit Burg, Markt und Verliesen. Über 200 Innenräume und versteckte Geheimnisse."
+      },
+      "changelog": {
+        "en": "Fixed the throne room door and catacomb lighting.",
+        "ru": "Исправлены дверь в тронном зале и освещение в катакомбах.",
+        "es": "Corregida la puerta de la sala del trono y la iluminación de las catacumbas.",
+        "pt": "Corrigida a porta do salão do trono e a iluminação das catacumbas.",
+        "de": "Tür des Thronsaals und Beleuchtung der Katakomben korrigiert."
+      }
+    },
+    {
+      "id": "crisp-hd-64x",
+      "title": "Crisp HD 64x",
+      "author": "TexelWorks", "verified": true,
+      "category": "textures",
+      "version": "5.1.0", "sizeMb": 34.8, "downloads": 2050000, "updated": "2026-09-25",
+      "featured": false, "isNew": false, "style": "compact",
+      "gameVersions": ["1.21.x", "1.20.x", "1.19.x"],
+      "tags": ["HD", "vanilla"],
+      "cover": { "seed": 53, "palette": ["#A5E05B", "#2F5F23", "#E3FFB8"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/crisp-hd-64x-5.1.0.mcpack", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "Sharp 64x64 textures that keep the vanilla look. Improved ores, foliage and animated water.",
+        "ru": "Чёткие текстуры 64x64 с сохранением ванильного стиля. Улучшенные руды, листва и анимированная вода.",
+        "es": "Texturas nítidas de 64x64 que mantienen el estilo vanilla. Minerales, vegetación y agua animada mejorados.",
+        "pt": "Texturas nítidas de 64x64 que mantêm o visual vanilla. Minérios, folhagem e água animada melhorados.",
+        "de": "Scharfe 64x64-Texturen im Vanilla-Stil. Verbesserte Erze, Laub und animiertes Wasser."
+      },
+      "changelog": {
+        "en": "New textures for Trial Chambers blocks.",
+        "ru": "Новые текстуры для блоков Trial Chambers.",
+        "es": "Nuevas texturas para los bloques de las Cámaras de Prueba.",
+        "pt": "Novas texturas para os blocos das Câmaras de Provação.",
+        "de": "Neue Texturen für Prüfungskammer-Blöcke."
+      }
+    },
+    {
+      "id": "soft-pastel",
+      "title": "Soft Pastel",
+      "author": "Mia & Co", "verified": false,
+      "category": "textures",
+      "version": "1.4.2", "sizeMb": 9.1, "downloads": 410000, "updated": "2026-09-16",
+      "featured": false, "isNew": true, "style": "compact",
+      "gameVersions": ["1.21.x", "1.20.x"],
+      "tags": ["cozy", "pastel"],
+      "cover": { "seed": 67, "palette": ["#FF7AA8", "#6B2350", "#FFD0E2"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/soft-pastel-1.4.2.mcpack", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "A gentle pastel palette for cozy builds. Perfect for your base and screenshots.",
+        "ru": "Нежная пастельная палитра для уютных построек. Идеально для базы и скриншотов.",
+        "es": "Una suave paleta pastel para construcciones acogedoras. Ideal para tu base y tus capturas.",
+        "pt": "Uma paleta pastel suave para construções aconchegantes. Perfeita para a sua base e capturas de tela.",
+        "de": "Eine sanfte Pastellpalette für gemütliche Bauten. Perfekt für deine Basis und Screenshots."
+      },
+      "changelog": {
+        "en": "Added pastel furniture variants.",
+        "ru": "Добавлены пастельные варианты мебели.",
+        "es": "Añadidas variantes pastel de muebles.",
+        "pt": "Adicionadas variantes pastel de móveis.",
+        "de": "Pastellfarbene Möbelvarianten hinzugefügt."
+      }
+    },
+    {
+      "id": "cyber-samurai",
+      "title": "Cyber Samurai",
+      "author": "NeoSkin", "verified": true,
+      "category": "skins",
+      "version": "1.0.3", "sizeMb": 2.3, "downloads": 980000, "updated": "2026-09-23",
+      "featured": false, "isNew": false, "style": "compact",
+      "gameVersions": ["1.21.x", "1.20.x", "1.19.x"],
+      "tags": ["cyberpunk", "skins"],
+      "cover": { "seed": 71, "palette": ["#B98CFF", "#3B2A7A", "#E6D6FF"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/cyber-samurai-1.0.3.mcpack", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "A pack of 24 cyberpunk samurai skins with neon details. Works with both arm models.",
+        "ru": "Набор из 24 скинов в стиле киберпанк-самураев с неоновыми деталями. Подходит для обеих моделей рук.",
+        "es": "Un pack de 24 skins de samuráis ciberpunk con detalles de neón. Funciona con ambos modelos de brazos.",
+        "pt": "Um pacote com 24 skins de samurais cyberpunk com detalhes neon. Funciona com os dois modelos de braço.",
+        "de": "Ein Paket mit 24 Cyberpunk-Samurai-Skins mit Neon-Details. Funktioniert mit beiden Armmodellen."
+      },
+      "changelog": {
+        "en": "6 new skins added to the collection.",
+        "ru": "Новые 6 скинов в коллекции.",
+        "es": "6 skins nuevas en la colección.",
+        "pt": "6 novas skins na coleção.",
+        "de": "6 neue Skins in der Sammlung."
+      }
+    },
+    {
+      "id": "zombie-apocalypse",
+      "title": "Zombie Apocalypse",
+      "author": "NightOwl", "verified": true,
+      "category": "addons",
+      "version": "4.0.7", "sizeMb": 27.5, "downloads": 1890000, "updated": "2026-09-26",
+      "featured": false, "isNew": false, "style": "banner",
+      "gameVersions": ["1.21.x", "1.20.x"],
+      "tags": ["zombies", "weapons"],
+      "cover": { "seed": 89, "palette": ["#A5E05B", "#2F5F23", "#E3FFB8"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/zombie-apocalypse-4.0.7.mcaddon", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "Zombie hordes, new weapons and fortifications. Wave mode and a 100-day survival challenge.",
+        "ru": "Орды зомби, новое оружие и укрепления. Режим волн и выживание на 100 дней.",
+        "es": "Hordas de zombis, armas nuevas y fortificaciones. Modo oleadas y reto de supervivencia de 100 días.",
+        "pt": "Hordas de zumbis, novas armas e fortificações. Modo de ondas e desafio de sobrevivência de 100 dias.",
+        "de": "Zombiehorden, neue Waffen und Befestigungen. Wellenmodus und 100-Tage-Überlebensherausforderung."
+      },
+      "changelog": {
+        "en": "Difficulty balance and a new boss.",
+        "ru": "Баланс сложности, новый босс.",
+        "es": "Equilibrio de dificultad y un nuevo jefe.",
+        "pt": "Balanceamento de dificuldade e um novo chefe.",
+        "de": "Schwierigkeitsbalance und ein neuer Boss."
+      }
+    },
+    {
+      "id": "deep-caves",
+      "title": "Deep Caves",
+      "author": "PixelForge", "verified": true,
+      "category": "addons",
+      "version": "1.6.0", "sizeMb": 19.9, "downloads": 720000, "updated": "2026-09-24",
+      "featured": false, "isNew": false, "style": "compact",
+      "gameVersions": ["1.21.x"],
+      "tags": ["caves", "biomes"],
+      "cover": { "seed": 103, "palette": ["#34E59B", "#1F6F5C", "#B8FFD9"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/deep-caves-1.6.0.mcaddon", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "New cave biomes, glowing mushrooms and underground rivers. Improved generation for explorers.",
+        "ru": "Новые биомы пещер, светящиеся грибы и подземные реки. Улучшенная генерация для исследователей.",
+        "es": "Nuevos biomas de cuevas, hongos luminosos y ríos subterráneos. Generación mejorada para exploradores.",
+        "pt": "Novos biomas de cavernas, cogumelos brilhantes e rios subterrâneos. Geração melhorada para exploradores.",
+        "de": "Neue Höhlenbiome, leuchtende Pilze und unterirdische Flüsse. Verbesserte Generierung für Entdecker."
+      },
+      "changelog": {
+        "en": "New biome: Crystal Cave.",
+        "ru": "Новый биом — Кристальная пещера.",
+        "es": "Nuevo bioma: Cueva de Cristal.",
+        "pt": "Novo bioma: Caverna de Cristal.",
+        "de": "Neues Biom: Kristallhöhle."
+      }
+    },
+    {
+      "id": "vanilla-light",
+      "title": "Vanilla+ Light",
+      "author": "LumaLab", "verified": true,
+      "category": "shaders",
+      "version": "1.1.0", "sizeMb": 3.2, "downloads": 1510000, "updated": "2026-09-09",
+      "featured": false, "isNew": false, "style": "compact",
+      "gameVersions": ["1.21.x", "1.20.x"],
+      "tags": ["lightweight", "FPS"],
+      "cover": { "seed": 113, "palette": ["#FFB347", "#7A3E12", "#FFE2A8"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/vanilla-light-1.1.0.mcpack", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "A lightweight shader for weak phones: soft shadows and richer colors without losing FPS.",
+        "ru": "Лёгкий шейдер для слабых телефонов: мягкие тени и более насыщенные цвета без потери FPS.",
+        "es": "Un shader ligero para móviles modestos: sombras suaves y colores más vivos sin perder FPS.",
+        "pt": "Um shader leve para celulares simples: sombras suaves e cores mais vivas sem perder FPS.",
+        "de": "Ein leichter Shader für schwache Handys: weiche Schatten und satte Farben ohne FPS-Verlust."
+      },
+      "changelog": {
+        "en": "Optimized for Mali GPUs.",
+        "ru": "Оптимизация под Mali-GPU.",
+        "es": "Optimizado para GPUs Mali.",
+        "pt": "Otimizado para GPUs Mali.",
+        "de": "Für Mali-GPUs optimiert."
+      }
+    },
+    {
+      "id": "castle-kit",
+      "title": "Castle Builder Kit",
+      "author": "StoneCraft Studio", "verified": true,
+      "category": "structures",
+      "version": "1.0.5", "sizeMb": 5.7, "downloads": 260000, "updated": "2026-08-30",
+      "featured": false, "isNew": true, "style": "compact",
+      "gameVersions": ["1.21.x", "1.20.x"],
+      "tags": ["castles", "building"],
+      "cover": { "seed": 127, "palette": ["#FFB347", "#7A3E12", "#FFE2A8"], "imageUrl": null },
+      "file": { "url": "https://cdn.example.com/castle-kit-1.0.5.mcstructure", "sha256": "0000000000000000000000000000000000000000000000000000000000000000" },
+      "description": {
+        "en": "40 ready-made builds: towers, walls, gates and keeps. Drop them into your world in a single move.",
+        "ru": "40 готовых построек: башни, стены, ворота и донжоны. Вставляйте в мир одним движением.",
+        "es": "40 construcciones listas: torres, muros, puertas y torres del homenaje. Colócalas en tu mundo de una vez.",
+        "pt": "40 construções prontas: torres, muralhas, portões e torres de menagem. Coloque-as no seu mundo de uma vez.",
+        "de": "40 fertige Bauwerke: Türme, Mauern, Tore und Bergfriede. Setze sie mit einem Handgriff in deine Welt."
+      },
+      "changelog": {
+        "en": "Added towers with turrets.",
+        "ru": "Добавлены башни с башенками.",
+        "es": "Añadidas torres con torretas.",
+        "pt": "Adicionadas torres com torreões.",
+        "de": "Türme mit Türmchen hinzugefügt."
+      }
+    }
+  ],
+
+  "ads": {
+    "_comment": "Рекламные идентификаторы. Сейчас здесь ТЕСТОВЫЕ ID Google AdMob — перед релизом замените их на свои. Для каждого формата AdMob можно указать несколько ID: они пробуются по порядку, и только если ни один не дал рекламу, подключается LevelPlay. Значения, начинающиеся с YOUR_, считаются незаполненными (LevelPlay в этом случае пропускается). AdMob App ID задаётся в AndroidManifest.xml.",
+    "admob": {
+      "appOpen": ["ca-app-pub-3940256099942544/9257395921"],
+      "interstitial": ["ca-app-pub-3940256099942544/1033173712"],
+      "rewarded": ["ca-app-pub-3940256099942544/5224354917"],
+      "banner": ["ca-app-pub-3940256099942544/6300978111"],
+      "native": ["ca-app-pub-3940256099942544/2247696110"]
+    },
+    "levelPlay": {
+      "appKey": "YOUR_LEVELPLAY_APP_KEY",
+      "interstitial": "YOUR_INTERSTITIAL_AD_UNIT_ID",
+      "rewarded": "YOUR_REWARDED_AD_UNIT_ID",
+      "banner": "YOUR_BANNER_AD_UNIT_ID",
+      "nativePlacement": "DefaultNative"
+    }
+  }
+}
